@@ -1,0 +1,42 @@
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 1px solid gray;
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.loginContainer h1{
+    color: aquamarine;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.loginContainer h3{
+    color: gray;
+    padding: 1rem 0;
+}
+
+.googleLoginButton{
+    /* width: 100px; */
+    color: white !important;
+    background-color: gray !important;
+    font-size: large !important;
+    padding: 3px 3px !important;
+    box-shadow: 1px 1px 1px 1px rgb(17, 8, 8) !important;
+}
+
+.googleLoginButton:hover{
+    background-color: rgb(46, 43, 43) !important;
+    
+    box-shadow: 1px 1px 1px 1px rgb(245, 243, 243) !important;
+}

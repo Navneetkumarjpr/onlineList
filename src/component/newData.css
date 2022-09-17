@@ -1,0 +1,60 @@
+.newDataPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 13vh - 1px);
+}
+.updatePage{
+    width: 30%;
+}
+.newDataContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 3rem;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 1rem;
+}
+.newDataContainer h1{
+    color: gray;
+}
+.dataInput{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px 7px;
+    background: none;
+    border-radius: 1rem;
+    outline: none;
+    color: wheat;
+}
+
+.dataInput::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+
+.dataButton{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.backButton{
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+    padding: 2px 5px;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 2px 2px gray;
+    cursor: pointer;
+    font-weight: 200;
+}
+.backButton:hover{
+    background-color: white;
+    color: gray;
+}

@@ -1,0 +1,72 @@
+.header{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.welcomeHeading{
+    color: white;
+    display: flex;
+
+}
+.welcomeHeading p{
+    color: aqua;
+    padding: 0 0.5rem;
+}
+.leftHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+}
+.leftHeader h2{
+    padding: 0 1rem;
+}
+.profileImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.addButton{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-right: 10px;
+    
+    box-shadow: 1px 1px 2px 2px gray;
+    /* background-color: gray; */
+    background: none;
+}
+.addButton:hover{
+    color: black;
+    background-color: white;
+}
+.rightHeader{
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 900px){
+    .headerButton{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightHeader{
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+    .leftHeader h2{
+        font-size: 1rem;
+    }
+}
